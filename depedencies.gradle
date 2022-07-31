@@ -96,10 +96,8 @@ def libraries = [
 
         //region TEST
         junit               : "junit:junit:4.12",
-        espresso            : "androidx.test.espresso:espresso-core:3.2.0",
+        espresso            : "androidx.test.espresso:espresso-core:3.2.0"
         // endregion
-        mockk :  "io.mockk:mockk:1.12.5"
-
 
 ]
 
@@ -143,7 +141,6 @@ ext.appDepedencies = [
         addDependency("implementation", libraries.retrofitConverter),
         addDependency("implementation", libraries.retrofitAdapter),
         addDependency("implementation", libraries.dataStore),
-        addDependency("implementation", libraries.mockk)
 ]
 
 ext.coreDepedencies = [
