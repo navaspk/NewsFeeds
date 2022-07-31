@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Short News</string>
+    <string name="news_image">News image</string>
+    <string name="error_internet_not_available">No internet</string>
+</resources>
